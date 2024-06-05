@@ -1,1 +1,28 @@
+.App {
+    text-align: left;
+    margin: 50px;
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
 
+  label {
+    font-size: large;
+  }
+  
+  input {
+    width: 40vh;
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+  
+  p {
+    font-size: 20px;
+    color: green;
+  }
+  .Appp {
+    display: flex;
+    flex-direction: column;
+  }

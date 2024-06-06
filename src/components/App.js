@@ -13,8 +13,8 @@ const App = () => {
   return (
     <div className="App">
     <div className="Appp">
-      <label>Enter your name:</label>
-      <input type="text" onChange={handleChange}></input>
+      <label htmlFor="name" >Enter your name:</label>
+      <input type="text" id="name" onChange={handleChange}></input>
     </div>
     {name && <p>Hello {name}!</p>}
     </div>
